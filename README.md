@@ -25,3 +25,23 @@ The BasePlusCommissionProgrammer class extends the CommissionProgrammer class an
 ### Programmer Class
 The Programmer class is an abstract class that declares the firstName, lastName, socialSecurityNumber, birthDate, and hireDate attributes and provides their respective getter and setter methods. The getPaymentAmount() method is also declared as an abstract method. This class is extended by the CommissionProgrammer and BasePlusCommissionProgrammer classes.
 
+<br />
+<br />
+
+# Clock Program
+This is a Java program that contains several classes to demonstrate the functionality of different types of clocks.
+
+### ClockDemo
+The ClockDemo class tests the functionality of the Clock class by creating a Clock object and calling its methods to retrieve the current hours, minutes, and time.
+
+### ClocksDemo
+The ClocksDemo class demonstrates the usage of the Clock, WorldClock, and AlarmClock classes by creating objects of these classes and storing them in an array. The program then iterates through the array and prints the time and class name of each object.
+
+### WorldClock
+The WorldClock class represents a world clock that displays the time in a specified timezone. This class extends the Clock class and overrides the getTime method to calculate and return the current time in the specified timezone.
+
+### WorldClockDemo
+The WorldClockDemo class demonstrates the usage of the WorldClock class by creating an instance of the class and testing its functionalities.
+
+### AlarmClock
+The AlarmClock class extends the Clock class and adds functionality to set an alarm and check whether the current time matches the alarm time. This class uses the LocalTime class from the java.time package.
